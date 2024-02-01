@@ -12,6 +12,7 @@
     { "source": "/pomodoro/:types*", "destination": "https://web-flasher.vercel.app/:types*" },
     { "source": "/pomodoro/:utils*", "destination": "https://web-flasher.vercel.app/:utils*" },
     { "source": "/pomodoro/:param*", "destination": "https://web-flasher.vercel.app/:param*" },
+    { "source": "/pomodoro", "destination": "https://web-flasher.vercel.app/*" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }

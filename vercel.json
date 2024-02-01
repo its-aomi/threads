@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/webflasher/:subdir*", "destination": "https://web-flasher.vercel.app/:subdir*" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}

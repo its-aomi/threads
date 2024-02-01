@@ -1,6 +1,8 @@
 {
   "rewrites": [
-    { "source": "/webflasher/:subdir*", "destination": "https://web-flasher.vercel.app/:subdir*" },
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/proxy/:match*",
+      "destination": "https://web-flasher.vercel.app/:match*"
+    }
   ]
 }

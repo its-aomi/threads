@@ -1,8 +1,6 @@
 {
   "rewrites": [
-    {
-      "source": "/proxy/:match*",
-      "destination": "https://web-flasher.vercel.app/:match*"
-    }
+    { "source": "/pomodoro/:asset*", "destination": "https://pomodoro-murex.vercel.app/:asset*" },
+    { "source": "/(.*)", "destination": "/" }
   ]
 }

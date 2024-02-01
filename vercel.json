@@ -1,18 +1,17 @@
 {
   "rewrites": [
-    { "source": "/pomodoro/:output*", "destination": "https://web-flasher.vercel.app/:output" },
-    { "source": "/pomodoro/:node_modules*", "destination": "https://web-flasher.vercel.app/:node_modules" },
-    { "source": "/pomodoro/:.output*", "destination": "https://web-flasher.vercel.app/:.output" },
-    { "source": "/pomodoro/:_nuxt*", "destination": "https://web-flasher.vercel.app/:_nuxt" },
-    { "source": "/pomodoro/:_output*", "destination": "https://web-flasher.vercel.app/:_output" },
-    { "source": "/pomodoro/:assets*", "destination": "https://web-flasher.vercel.app/:assets" },
-    { "source": "/pomodoro/:components*", "destination": "https://web-flasher.vercel.app/:components" },
-    { "source": "/pomodoro/:public*", "destination": "https://web-flasher.vercel.app/:public" },
-    { "source": "/pomodoro/:server*", "destination": "https://web-flasher.vercel.app/:server" },
-    { "source": "/pomodoro/:stores*", "destination": "https://web-flasher.vercel.app/:stores" },
-    { "source": "/pomodoro/:types*", "destination": "https://web-flasher.vercel.app/:types" },
-    { "source": "/pomodoro/:utils*", "destination": "https://web-flasher.vercel.app/:utils" },
-    { "source": "/pomodoro/:param*", "destination": "https://web-flasher.vercel.app/:param" },
+    { "source": "/pomodoro/:output*", "destination": "https://web-flasher.vercel.app/:output*" },
+    { "source": "/pomodoro/:node_modules*", "destination": "https://web-flasher.vercel.app/:node_modules*" },
+    { "source": "/pomodoro/:_nuxt*", "destination": "https://web-flasher.vercel.app/:_nuxt*" },
+    { "source": "/pomodoro/:_output*", "destination": "https://web-flasher.vercel.app/:_output*" },
+    { "source": "/pomodoro/:assets*", "destination": "https://web-flasher.vercel.app/:assets*" },
+    { "source": "/pomodoro/:components*", "destination": "https://web-flasher.vercel.app/:components*" },
+    { "source": "/pomodoro/:public*", "destination": "https://web-flasher.vercel.app/:public*" },
+    { "source": "/pomodoro/:server*", "destination": "https://web-flasher.vercel.app/:server*" },
+    { "source": "/pomodoro/:stores*", "destination": "https://web-flasher.vercel.app/:stores*" },
+    { "source": "/pomodoro/:types*", "destination": "https://web-flasher.vercel.app/:types*" },
+    { "source": "/pomodoro/:utils*", "destination": "https://web-flasher.vercel.app/:utils*" },
+    { "source": "/pomodoro/:param*", "destination": "https://web-flasher.vercel.app/:param*" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
